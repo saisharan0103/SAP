@@ -1,0 +1,6 @@
+# Company settings template (YAML)
+company:
+  name: "Your Company Name"
+  address: "123 Main St, City"
+database:
+  path: "sap.db"
