@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>Invoice Entry - Step 2</h1>
+<p>Customer: {{ data.customer }}</p>
+<p>Amount: {{ data.amount }}</p>
+<form method="post">
+  <button type="submit">Confirm</button>
+</form>
+{% endblock %}
