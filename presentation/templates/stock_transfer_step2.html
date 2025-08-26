@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>Stock Transfer - Step 2</h1>
+<p>Item: {{ data.item }}</p>
+<p>Quantity: {{ data.quantity }}</p>
+<p>From: {{ data.from_location }}</p>
+<p>To: {{ data.to_location }}</p>
+<form method="post">
+  <button type="submit">Confirm</button>
+</form>
+{% endblock %}

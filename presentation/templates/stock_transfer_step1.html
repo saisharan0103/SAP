@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>Stock Transfer - Step 1</h1>
+<form method="post">
+  Item: <input name="item"><br>
+  Quantity: <input name="quantity" type="number" step="1"><br>
+  From: <input name="from_location"><br>
+  To: <input name="to_location"><br>
+  <button type="submit">Next</button>
+</form>
+{% endblock %}

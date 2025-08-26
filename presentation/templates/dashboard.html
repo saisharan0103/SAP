@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>Dashboard</h1>
+<ul>
+  <li>Cash: {{ kpis.cash }}</li>
+  <li>Receivables: {{ kpis.receivables }}</li>
+  <li>Payables: {{ kpis.payables }}</li>
+  <li>Stock: {{ kpis.stock }}</li>
+</ul>
+{% endblock %}
